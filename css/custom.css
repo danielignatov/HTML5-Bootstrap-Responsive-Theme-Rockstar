@@ -1,0 +1,15 @@
+body {
+    /* Todo: make the img to be tile to save traffic */
+    background: url(../img/starfallbg.png) no-repeat, #FAFAFA;
+}
+
+.logo img {
+    width: 50%;
+    height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo img {
+        width: 100%;
+    }
+}
